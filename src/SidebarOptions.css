@@ -1,0 +1,26 @@
+.sidebarOptions {
+  color: rgb(132, 131, 131);
+  height: 35px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+}
+.sidebarOptions:hover {
+  color: white;
+}
+
+.sidebarOptions > h4 {
+  font-weight: bolder;
+}
+
+.sidebarOptions__icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebarOptions > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+}
